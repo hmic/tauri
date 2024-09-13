@@ -1,5 +1,11 @@
 # Changelog
 
+## \[2.0.0-rc.14]
+
+### Dependencies
+
+- Upgraded to `tauri-cli@2.0.0-rc.13`
+
 ## \[2.0.0-rc.13]
 
 ### Bug Fixes

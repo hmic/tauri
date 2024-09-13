@@ -1,5 +1,15 @@
 # Changelog
 
+## \[2.0.0-rc.13]
+
+### New Features
+
+- [`656618225`](https://www.github.com/tauri-apps/tauri/commit/65661822580c31eb10a44be45842e259c598374c) ([#10866](https://www.github.com/tauri-apps/tauri/pull/10866) by [@thep0y](https://www.github.com/tauri-apps/tauri/../../thep0y)) Add `TAURI_BUNDLER_TOOLS_GITHUB_MIRROR` environment variable to specify a GitHub mirror to download files and tools used by tauri bundler. This is designed for areas like Mainland China where GitHub access can be unreliable.
+
+### Dependencies
+
+- Upgraded to `tauri-bundler@2.0.1-rc.11`
+
 ## \[2.0.0-rc.12]
 
 ### Bug Fixes

@@ -1,5 +1,21 @@
 # Changelog
 
+## \[2.0.1-rc.11]
+
+### New Features
+
+- [`656618225`](https://www.github.com/tauri-apps/tauri/commit/65661822580c31eb10a44be45842e259c598374c) ([#10866](https://www.github.com/tauri-apps/tauri/pull/10866) by [@thep0y](https://www.github.com/tauri-apps/tauri/../../thep0y)) Add `TAURI_BUNDLER_TOOLS_GITHUB_MIRROR` environment variable to specify a GitHub mirror to download files and tools used by tauri bundler. This is designed for areas like Mainland China where GitHub access can be unreliable.
+- [`b13cb208a`](https://www.github.com/tauri-apps/tauri/commit/b13cb208a3b8973a0d8e14bbdc587550982ec1f0) ([#10962](https://www.github.com/tauri-apps/tauri/pull/10962) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Store main binary name in registry for NSIS installer and delete old main binary on updates if the name changes.
+
+### Enhancements
+
+- [`a1e88d2b5`](https://www.github.com/tauri-apps/tauri/commit/a1e88d2b57219406332599d8e964e28b9b774068) ([#10969](https://www.github.com/tauri-apps/tauri/pull/10969) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Generate a consistent Product code for MSI installer derived from `identifier` instead of generating random one each build.
+
+### Bug Fixes
+
+- [`9d468774a`](https://www.github.com/tauri-apps/tauri/commit/9d468774a94b5f5210a3012db2e58dbfab4755f4) ([#10975](https://www.github.com/tauri-apps/tauri/pull/10975) by [@FabianLars](https://www.github.com/tauri-apps/tauri/../../FabianLars)) The executable and NSIS installer on Windows will now use the `productName` config for the `FileDescription` property instead of `shortDescription`.
+- [`7eb1171e3`](https://www.github.com/tauri-apps/tauri/commit/7eb1171e3a2eb7bc5085ff28fc8610e5af82bdd5) ([#10967](https://www.github.com/tauri-apps/tauri/pull/10967) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Fix generated `UpgradeCode` for MSI not matching MSI installers created with tauri-bundler@v1.
+
 ## \[2.0.1-rc.10]
 
 ### Dependencies

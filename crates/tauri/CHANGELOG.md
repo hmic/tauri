@@ -1,5 +1,21 @@
 # Changelog
 
+## \[2.0.0-rc.12]
+
+### Bug Fixes
+
+- [`63649d82d`](https://www.github.com/tauri-apps/tauri/commit/63649d82d20b8f69d973b41bd0c157997770d6a0) ([#10971](https://www.github.com/tauri-apps/tauri/pull/10971) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Fix schema generation for `core:default` set.
+- [`be18ed50d`](https://www.github.com/tauri-apps/tauri/commit/be18ed50d8e04261da1553662a768e7ce0f1dd8f) ([#10982](https://www.github.com/tauri-apps/tauri/pull/10982) by [@lucasfernog](https://www.github.com/tauri-apps/tauri/../../lucasfernog)) Add a Proguard rule to prevent custom JSON deserializer and serializer classes from being optimized away.
+- [`00182ebf8`](https://www.github.com/tauri-apps/tauri/commit/00182ebf894b83302179ccb7f415f97d04600c77) ([#10988](https://www.github.com/tauri-apps/tauri/pull/10988) by [@lucasfernog](https://www.github.com/tauri-apps/tauri/../../lucasfernog)) Fix `requestPermissions` not resolving on Android.
+
+### Dependencies
+
+- Upgraded to `tauri-build@2.0.0-rc.11`
+
+### Breaking Changes
+
+- [`fe5ff1228`](https://www.github.com/tauri-apps/tauri/commit/fe5ff1228c34cf12929d861454ab9716da9480da) ([#10978](https://www.github.com/tauri-apps/tauri/pull/10978) by [@lucasfernog](https://www.github.com/tauri-apps/tauri/../../lucasfernog)) Rename `PermissionState::Unknown` to `PermissionState::Prompt`.
+
 ## \[2.0.0-rc.11]
 
 ### Bug Fixes
